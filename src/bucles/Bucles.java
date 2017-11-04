@@ -14,12 +14,18 @@ public class Bucles {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    int stop = -1;
-    while (stop<=0)//mientras  se cumpla  esta  condicion
+    public static void main(String[] args) 
     {
-stop = Integer.parseInt(JOptionpane.showInputDialog("ingrese un  numero"))
+        int stop = -1;
+        int index = 0;
+    while (index<100)//mientras  se cumpla  esta  condicion
+        // TODO code application logic here
+    //stop = Integer.parseInt(JOptionpane.showInputDialog("ingrese un  numero"))
+        System.out.println(index);
+        index++; //incrementamos  la  varialble
 }
-}
+        }
+    
+    
+
+
